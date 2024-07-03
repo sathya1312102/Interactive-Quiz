@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Quiz</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<div class="container">
+    <div id="quiz">
+        <h1>Interactive Quiz</h1>
+        <div class="question">
+            <p>1. Which HTML tag is used to create a hyperlink?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="A"> A) &lt;a&gt;</label>
+                <label><input type="radio" name="q1" value="B"> B) &lt;link&gt;</label>
+                <label><input type="radio" name="q1" value="C"> C) &lt;href&gt;</label>
+                <label><input type="radio" name="q1" value="D"> D) &lt;hyper&gt;</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>2. In CSS, which property is used to change the background color of an element?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="A"> A) background-color</label>
+                <label><input type="radio" name="q2" value="B"> B) color</label>
+                <label><input type="radio" name="q2" value="C"> C) text-color</label>
+                <label><input type="radio" name="q2" value="D"> D) bgcolor</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>3. Which HTML tag is used to define a paragraph?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="A"> A) &lt;p&gt;</label>
+                <label><input type="radio" name="q3" value="B"> B) &lt;par&gt;</label>
+                <label><input type="radio" name="q3" value="C"> C) &lt;para&gt;</label>
+                <label><input type="radio" name="q3" value="D"> D) &lt;paragraph&gt;</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>4. Which CSS property is used to set the font size of text?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="A"> A) font-size</label>
+                <label><input type="radio" name="q4" value="B"> B) text-size</label>
+                <label><input type="radio" name="q4" value="C"> C) size</label>
+                <label><input type="radio" name="q4" value="D"> D) font</label>
+            </div>
+        </div>
+        <div class="question">
+            <p>5. What is the correct way to select an element with the ID "header" in CSS?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="A"> A) .header</label>
+                <label><input type="radio" name="q5" value="B"> B) header</label>
+                <label><input type="radio" name="q5" value="C"> C) #header</label>
+                <label><input type="radio" name="q5" value="D"> D) header</label>
+            </div>
+        </div>
+        <button onclick="submitQuiz()">Submit Quiz</button>
+    </div>
+    <div id="quiz-result">
+        <h1>Interactive Quiz</h1>
+        <h2>Your Quiz Result</h1>
+        <h5 id="score"></h5>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
